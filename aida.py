@@ -3,7 +3,7 @@ from selenium import webdriver
 from time import strftime
 from selenium.webdriver.common.keys import Keys
 
-PATH = "E:\\Projects\\aida\\chromedriver.exe"
+PATH = ".\chromedriver.exe"
 
 driver = webdriver.Chrome(PATH)
 
